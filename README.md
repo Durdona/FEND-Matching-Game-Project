@@ -1,4 +1,7 @@
 # FEND-Matching-Game-Project
+
+### Live version is <a href="https://codepen.io/Abdusamikovna/full/VGrGrO/">CSS here.</a>
+
 ## What Will I Build?
 
 <p>The Memory Game Project is all about demonstrating your mastery of JavaScript. You’ll build a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!</p>
