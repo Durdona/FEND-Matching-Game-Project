@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+/*``````````` CSS Reset `and default Style ``````````*/
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Jura', sans-serif;
+        width: 100%;
+        height: 100%;
+        background: url('../img/body.jpg')top right;
+}
+
+h1 {
+        text-align: center;
+        color: #B69F6E;
+        text-shadow: 2px 2px 4px #000;
+        margin-top: 40px;
+        font-family: 'Jura', sans-serif;
+        font-weight: 400;
+}
+
+.container {
+        width: 100%;
+        margin-top: 40px;
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        border-style: groove;
+        border-width: 8px;
+        border-radius: 10px;
+        border-color: #B69F6E;
+        font-size: 1em;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 2px #2A363B;
+        background: url('../img/container.png') left top;
+        box-shadow: 12px 15px 20px #000;
+}
+
+#cards {
+        margin: 0 auto;
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);        /* fr is a unit of free space */
+        grid-template-rows: repeat(4, 100%);
+        grid-gap: 20px;
+}
+
+.card {
+        border: ridge 4px;
+        border-color: #C4AD7B;
+        display: inline-block;
+        padding-bottom: calc(100% - 8px);        /* padding is 100% of width minus border */
+        box-shadow: 5px 5px 11px #6B6859;
+        border-radius: 8px;
+}
+
+.card[card='australia'] {
+        background: url('../img/Australia.jpg');
+        background-size: cover;
+}
+
+.card[card='bolivia'] {
+        background: url('../img/Bolivia.jpg');
+        background-size: cover;
+}
+
+.card[card='california'] {
+        background: url('../img/California.jpg');
+        background-size: cover;
+}
+
+.card[card='hawaii'] {
+        background: url('../img/Hawaii.jpg');
+        background-size: cover;
+}
+
+.card[card='italy'] {
+        background: url('../img/Italy.jpg');
+        background-size: cover;
+}
+
+.card[card='norway'] {
+        background: url('../img/Norway.jpg');
+        background-size: cover;
+}
+
+.card[card='paris'] {
+        background: url('../img/Paris.jpg');
+        background-size: cover;
+}
+
+.card[card='china'] {
+        background: url('../img/China.jpeg');
+        background-size: cover;
+}
+
+.card:not([show]) {
+        background: url('../img/front.png');
+}
+
+.card[done] {
+        opacity: 0;
+}
+
+input {
+        padding: 10px;
+        margin-right: 20px;
+        font-family: 'Jura', sans-serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        border-radius: 6px;
+        background-color: #4E351A;
+        color: #FFF0C5;
+        box-shadow: 4px 4px 8px #6B6859;
+        outline: none;
+}
+
+span#rating {
+        color: #8A684C;
+        font-size: 22px;
+        text-shadow: 1px 1px 3px #000;
+}
+
+@media (min-width: 640px) {
+        .container {
+                width: 640px;                /* stop growing container after 640px */
+        }
+}
