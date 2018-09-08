@@ -64,41 +64,49 @@ h1 {
 .card[card='australia'] {
         background: url('../img/Australia.jpg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card[card='bolivia'] {
         background: url('../img/Bolivia.jpg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card[card='california'] {
         background: url('../img/California.jpg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card[card='hawaii'] {
         background: url('../img/Hawaii.jpg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card[card='italy'] {
         background: url('../img/Italy.jpg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card[card='norway'] {
         background: url('../img/Norway.jpg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card[card='paris'] {
         background: url('../img/Paris.jpg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card[card='china'] {
         background: url('../img/China.jpeg');
         background-size: cover;
+        background-position: center center;
 }
 
 .card:not([show]) {
