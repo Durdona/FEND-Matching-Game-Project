@@ -1,6 +1,6 @@
 # FEND-Matching-Game-Project
 
-### Live version is <a href="https://codepen.io/Abdusamikovna/full/VGrGrO/">here.</a>
+### Live version is <a href="https://codepen.io/Abdusamikovna/full/VGrGrO/" target="blank">here.</a>
 
 ## What Will I Build?
 
