@@ -2,6 +2,10 @@
 
 ### Live version is <a href="https://codepen.io/Abdusamikovna/full/VGrGrO/" target="_blank">here.</a> <!-- seems like target="_blank" doesn't work on GitHub --> 
 
+<p align="center">
+	<img src="https://github.com/Durdona/FEND-Matching-Game-Project/blob/master/img/screenshot.png"/>
+</p>
+
 ## What Will I Build?
 
 <p>The Memory Game Project is all about demonstrating your mastery of JavaScript. You’ll build a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!</p>
