@@ -3,7 +3,7 @@
 ### Live version is <a href="https://codepen.io/Abdusamikovna/full/VGrGrO/" target="_blank">here.</a> <!-- seems like target="_blank" doesn't work on GitHub --> 
 
 <p align="center">
-	<img src="https://github.com/Durdona/FEND-Matching-Game-Project/blob/master/img/screenshot.png"/>
+	<img src="https://github.com/Durdona/FEND-Matching-Game-Project/blob/master/img/screenshot.png" width="600" height="600"/>
 </p>
 
 ## What Will I Build?
